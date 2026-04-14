@@ -1,0 +1,44 @@
+body {
+      font-family: Arial;
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+    form {
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      width: 300px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background: blue;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    #message {
+    margin-top: 10px;
+    padding: 10px;
+    display: none;
+    border-radius: 5px;
+  }
+
+  .success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+
+  .error {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
